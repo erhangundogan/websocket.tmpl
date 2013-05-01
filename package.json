@@ -1,6 +1,6 @@
 {
   "name": "wtmpl",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Basic express/websocket website template featuring session management with MongoDB and jade templates.",
   "keywords": ["websocket", "site", "template"],
   "author": "Erhan Gundogan <erhan.gundogan@gmail.com>",
