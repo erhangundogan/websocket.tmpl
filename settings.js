@@ -1,10 +1,10 @@
 
 exports.db = {
-  connection: "mongodb://localhost/sql2mongodb",
+  connection: "mongodb://localhost/siteTemplate",
   session: {
     host: "localhost",
     port: 27017,
-    dbName: "sql2mongodb",
+    dbName: "siteTemplate",
     collection: "sessions",
     serverOptions: { auto_reconnect: true, native_parser:true },
     dbOptions: {}

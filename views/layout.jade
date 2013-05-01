@@ -2,7 +2,7 @@
 html(lang="tr")
   head
     block head
-      title SQL2MongoDB :: Database Transfer Tool
+      title SiteTemplate ::
       include meta
       //Bootstrap
       link(type="text/css", href="/public/bootstrap/css/bootstrap.min.css", rel="stylesheet", media="screen")
@@ -12,46 +12,21 @@ html(lang="tr")
       script(src="//html5shiv.googlecode.com/svn/trunk/html5.js")
     script(src="http://code.jquery.com/jquery-latest.js")
     script(src="/public/bootstrap/js/bootstrap.min.js")
-    script(src="/public/js/jquery.backstretch.min.js")
-    script
-      $(function(){
-        $.backstretch([
-              "/public/style/bg/dolores_1600x1200_B.jpg",
-              "/public/style/bg/japanGar_1600x1200_C.jpg",
-              "/public/style/bg/oranOnOlive_1600x1200_D.jpg",
-              "/public/style/bg/dolores_1600x1200_E.jpg",
-              "/public/style/bg/japanGar_1600x1200_D.jpg",
-              "/public/style/bg/dolores_1600x1200_G.jpg",
-              "/public/style/bg/dolores_1600x1200_D.jpg",
-              "/public/style/bg/japanGar_1600x1200_E.jpg",
-              "/public/style/bg/winterSpl_1600x1200_C.jpg",
-              "/public/style/bg/oranOnOlive_1600x1200_H.jpg",
-              "/public/style/bg/dolores_1600x1200_C.jpg",
-              "/public/style/bg/japanGar_1600x1200_B.jpg",
-              "/public/style/bg/dolores_1600x1200_H.jpg",
-              "/public/style/bg/granny_1600x1200_C.jpg",
-              "/public/style/bg/japanGar_1600x1200_G.jpg",
-              "/public/style/bg/oranOnOlive_1600x1200_C.jpg",
-              "/public/style/bg/winterSpl_1600x1200_G.jpg",
-              "/public/style/bg/japanGar_1600x1200_H.jpg",
-              "/public/style/bg/oranOnOlive_1600x1200_B.jpg",
-              "/public/style/bg/oranOnOlive_1600x1200_G.jpg"
-          ], {duration: 5000, fade: 1000});
-      });
+
     block scripts
 
-    body(data-spy="scroll", data-target=".bs-docs-sidebar", data-twttr-rendered="true")
-      .navbar.navbar-inverse.navbar-fixed-top
-        .navbar-inner
-          .container
-            button.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-            a.brand(href="/") SQL2MongoDB (Priceless)
-            .nav-collapse.collapse
-              ul.nav
-                li.active
-                  a(href="/") Homepage
-      .container
-        block content
+  body(data-spy="scroll", data-target=".bs-docs-sidebar", data-twttr-rendered="true")
+    .navbar.navbar-inverse.navbar-fixed-top
+      .navbar-inner
+        .container
+          button.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.brand(href="/") SiteTemplate
+          .nav-collapse.collapse
+            ul.nav
+              li.active
+                a(href="/") Homepage
+    .container
+      block content
