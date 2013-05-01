@@ -1,8 +1,6 @@
 # Site Template
 
-Basic websocket website featuring session management on MongoDB
-
-Project is under development.
+Basic express/websocket website featuring session management with MongoDB and jade templates
 
 ### Author
 

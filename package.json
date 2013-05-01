@@ -1,7 +1,7 @@
 {
   "name": "SiteTemplate",
-  "version": "0.1.0",
-  "description": "Simple websocket site template with express, jade and bootstrap backed",
+  "version": "0.1.1",
+  "description": "Basic express/websocket website featuring session management with MongoDB and jade templates.",
   "keywords": ["websocket", "site", "template"],
   "author": "Erhan Gundogan <erhan.gundogan@gmail.com>",
   "repository": {
