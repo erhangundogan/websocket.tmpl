@@ -5,8 +5,9 @@ block scripts
   script
     var socket = io.connect("http://localhost:3000");
     socket.on("test connection", function(err, result) {
+      console.log(err);
+      console.log(result);
     });
-
 
 block content
   .row(style="margin-top:2em")

@@ -4,11 +4,14 @@
  */
 
 var express           = require("express"),
+    http              = require("http"),
     routes            = require("./routes"),
     sockets           = require("./sockets"),
-    app               = exports.app = express(),
-    io                = exports.io = require("socket.io").listen(app),
-    dbConfig          = require("./settings").db.session,
+    app               = express(),
+    server            = http.createServer(app),
+    io                = require("socket.io").listen(server),
+    Settings          = require("./settings"),
+    dbConfig          = Settings.db.session,
     MongoDb           = require("mongoose/node_modules/mongodb"),
     mongoStore        = require("connect-mongodb"),
     SessionSockets    = require("session.socket.io"),
@@ -19,7 +22,6 @@ var express           = require("express"),
     sessionSockets    = new SessionSockets(io, sessionStore, cookieParser);
 
 // Configuration
-
 app.configure("development", function() {
   app.set("views", __dirname + "/views");
   app.set("view engine", "jade");
@@ -56,5 +58,5 @@ app.get("/", routes.homepage.get);
 
 sessionSockets.on("connection", sockets.connected);
 
-app.listen(3000);
-console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+server.listen(3000);
+console.log("Express server listening on port 3000 in %s mode", app.settings.env);
