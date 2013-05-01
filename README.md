@@ -1,6 +1,6 @@
-# Site Template
+# Websocket Site Template
 
-Basic express/websocket website featuring session management with MongoDB and jade templates
+Simple node.js express/websocket website template featuring session management with MongoDB and jade templates
 
 ### Author
 

@@ -1,12 +1,12 @@
 {
-  "name": "SiteTemplate",
-  "version": "0.1.1",
-  "description": "Basic express/websocket website featuring session management with MongoDB and jade templates.",
+  "name": "wtmpl",
+  "version": "0.1.2",
+  "description": "Basic express/websocket website template featuring session management with MongoDB and jade templates.",
   "keywords": ["websocket", "site", "template"],
   "author": "Erhan Gundogan <erhan.gundogan@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erhangundogan/siteTemplate"
+    "url": "https://github.com/erhangundogan/websocket.tmpl"
   },
   "dependencies": {
     "express": ">= 3.2.1",
