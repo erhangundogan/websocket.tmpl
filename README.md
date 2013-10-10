@@ -6,6 +6,8 @@ Simple node.js express/websocket website template featuring session management w
 
 ```bash
 git clone git@github.com:erhangundogan/websocket.tmpl.git
+cd websocket.tmpl
+npm install -d
 
 # or
 
