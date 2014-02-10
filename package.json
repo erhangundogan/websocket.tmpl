@@ -9,12 +9,12 @@
     "url": "https://github.com/erhangundogan/websocket.tmpl"
   },
   "dependencies": {
-    "express": ">= 3.2.1",
-    "jade": ">= 0.30.0",
-    "connect-flash": ">= 0.1.0",
-    "connect-mongodb": ">= 1.1.5",
-    "mongoose": ">= 3.6.8",
-    "session.socket.io": ">= 0.1.6",
-    "socket.io": ">= 0.9.14"
+    "express": "3.2.1",
+    "jade": "0.30.0",
+    "connect-flash": "0.1.0",
+    "connect-mongodb": "1.1.5",
+    "mongoose": "3.6.8",
+    "session.socket.io": "0.1.6",
+    "socket.io": "0.9.14"
   }
 }
